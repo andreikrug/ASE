@@ -1,0 +1,6 @@
+create table spaces (cnot char(5) not null,
+    cnull char(5) null,
+    vnot varchar(5) not null,
+        vnull varchar(5) null,
+    explanation varchar(25) not null)
+insert spaces values ("a", "b", "c", "d", "pads char-not-null only")
