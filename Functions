@@ -1,0 +1,4 @@
+• char_length returns the number of characters in the column, stripping trailing blanks for variable-length
+datatypes.
+• datalength returns the number of bytes, stripping trailing blanks for data stored in variable-length
+columns.
