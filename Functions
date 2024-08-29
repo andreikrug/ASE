@@ -2,3 +2,8 @@
 datatypes.
 • datalength returns the number of bytes, stripping trailing blanks for data stored in variable-length
 columns.
+
+
+
+?  sp_spaceused provides information about the space used for text data as index_size.
+sp_spaceused blurbs
