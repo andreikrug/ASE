@@ -4,3 +4,11 @@ create table spaces (cnot char(5) not null,
         vnull varchar(5) null,
     explanation varchar(25) not null)
 insert spaces values ("a", "b", "c", "d", "pads char-not-null only")
+
+
+
+create table tb (ut unitext null)
+-- permite valores null na coluna, mas salva espaço ao definir ela dessa forma. 
+To save storage space for empty text, unitext, or image columns, define them to permit null values and insert
+nulls until you use the column. Inserting a null value does not initialize a text, unitext, or image column and,
+therefore, does not create a text pointer or allocate storage.
