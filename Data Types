@@ -1,1 +1,2 @@
-Use the bit datatype for columns that contain true/false and yes/no types of dat
+Use the bit datatype for columns that contain true/false and yes/no types of data. bit columns hold either 0 or 1. Integer values other than 0 or 1 are accepted, but are always interpreted as 1.
+
